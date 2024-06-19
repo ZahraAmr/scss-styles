@@ -1,0 +1,17 @@
+{
+  "name": "assign3-css-precompiler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd public && live-server"
+    "sass": "sass --watch public/assets/style.scss:public/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.77.6"
+  }
+}
